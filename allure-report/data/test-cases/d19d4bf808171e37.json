@@ -1,0 +1,64 @@
+{
+  "uid" : "d19d4bf808171e37",
+  "name" : "0000 - Sample Test case",
+  "fullName" : "Sample test spec page.0000 - Sample Test case",
+  "historyId" : "e725e7a1a4d5f6ba618218e33a94b17d",
+  "time" : {
+    "start" : 1592481370853,
+    "stop" : 1592481417879,
+    "duration" : 47026
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "WebDriverError: unknown error: failed to change window state to maximized, current state is minimized\n                  (Session info: chrome=83.0.4103.97)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'CHANAKAU', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'\n                Driver info: driver.version: unknown",
+  "statusTrace" : "WebDriverError: unknown error: failed to change window state to maximized, current state is minimized\n                  (Session info: chrome=83.0.4103.97)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'CHANAKAU', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'\n                Driver info: driver.version: unknown\n                    at Object.checkLegacyResponse (C:\\Users\\chanakau\\Desktop\\AutomationBUS\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n                    at parseHttpResponse (C:\\Users\\chanakau\\Desktop\\AutomationBUS\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n                    at doSend.then.response (C:\\Users\\chanakau\\Desktop\\AutomationBUS\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)\n                From: Task: WebDriver.manage().window().maximize()\n                    at thenableWebDriverProxy.schedule (C:\\Users\\chanakau\\Desktop\\AutomationBUS\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n                    at Window.maximize (C:\\Users\\chanakau\\Desktop\\AutomationBUS\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1686:25)\n                    at onPrepare (C:\\Users\\chanakau\\Desktop\\AutomationBUS\\conf.js:35:29)\n                    at q_1.Promise (C:\\Users\\chanakau\\Desktop\\AutomationBUS\\node_modules\\protractor\\built\\util.js:46:49)\n                    at Function.promise (C:\\Users\\chanakau\\Desktop\\AutomationBUS\\node_modules\\protractor\\node_modules\\q\\q.js:682:9)\n                    at Object.runFilenameOrFn_ (C:\\Users\\chanakau\\Desktop\\AutomationBUS\\node_modules\\protractor\\built\\util.js:38:16)\n                    at plugins_.onPrepare.then (C:\\Users\\chanakau\\Desktop\\AutomationBUS\\node_modules\\protractor\\built\\runner.js:98:27)\n                    at _fulfilled (C:\\Users\\chanakau\\Desktop\\AutomationBUS\\node_modules\\protractor\\node_modules\\q\\q.js:834:54)\n                    at C:\\Users\\chanakau\\Desktop\\AutomationBUS\\node_modules\\protractor\\node_modules\\q\\q.js:863:30\n                    at Promise.promise.promiseDispatch (C:\\Users\\chanakau\\Desktop\\AutomationBUS\\node_modules\\protractor\\node_modules\\q\\q.js:796:13)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "WebDriverError: unknown error: failed to change window state to maximized, current state is minimized\n                  (Session info: chrome=83.0.4103.97)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'CHANAKAU', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'\n                Driver info: driver.version: unknown",
+    "statusTrace" : "WebDriverError: unknown error: failed to change window state to maximized, current state is minimized\n                  (Session info: chrome=83.0.4103.97)\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'CHANAKAU', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'\n                Driver info: driver.version: unknown\n                    at Object.checkLegacyResponse (C:\\Users\\chanakau\\Desktop\\AutomationBUS\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n                    at parseHttpResponse (C:\\Users\\chanakau\\Desktop\\AutomationBUS\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n                    at doSend.then.response (C:\\Users\\chanakau\\Desktop\\AutomationBUS\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)\n                From: Task: WebDriver.manage().window().maximize()\n                    at thenableWebDriverProxy.schedule (C:\\Users\\chanakau\\Desktop\\AutomationBUS\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n                    at Window.maximize (C:\\Users\\chanakau\\Desktop\\AutomationBUS\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1686:25)\n                    at onPrepare (C:\\Users\\chanakau\\Desktop\\AutomationBUS\\conf.js:35:29)\n                    at q_1.Promise (C:\\Users\\chanakau\\Desktop\\AutomationBUS\\node_modules\\protractor\\built\\util.js:46:49)\n                    at Function.promise (C:\\Users\\chanakau\\Desktop\\AutomationBUS\\node_modules\\protractor\\node_modules\\q\\q.js:682:9)\n                    at Object.runFilenameOrFn_ (C:\\Users\\chanakau\\Desktop\\AutomationBUS\\node_modules\\protractor\\built\\util.js:38:16)\n                    at plugins_.onPrepare.then (C:\\Users\\chanakau\\Desktop\\AutomationBUS\\node_modules\\protractor\\built\\runner.js:98:27)\n                    at _fulfilled (C:\\Users\\chanakau\\Desktop\\AutomationBUS\\node_modules\\protractor\\node_modules\\q\\q.js:834:54)\n                    at C:\\Users\\chanakau\\Desktop\\AutomationBUS\\node_modules\\protractor\\node_modules\\q\\q.js:863:30\n                    at Promise.promise.promiseDispatch (C:\\Users\\chanakau\\Desktop\\AutomationBUS\\node_modules\\protractor\\node_modules\\q\\q.js:796:13)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4be7def0ab10c6f0",
+      "name" : "Screenshot",
+      "source" : "4be7def0ab10c6f0.png",
+      "type" : "image/png",
+      "size" : 215433
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sample test spec page"
+  }, {
+    "name" : "testClass",
+    "value" : "Sample test spec page"
+  }, {
+    "name" : "testMethod",
+    "value" : "0000 - Sample Test case"
+  }, {
+    "name" : "package",
+    "value" : "Sample test spec page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d19d4bf808171e37.json",
+  "parameterValues" : [ ]
+}

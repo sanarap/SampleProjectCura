@@ -1,0 +1,11 @@
+[ {
+  "uid" : "8f9493e1b387485e",
+  "name" : "0000 - Sample Test case",
+  "time" : {
+    "start" : 1592484920234,
+    "stop" : 1592484961294,
+    "duration" : 41060
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

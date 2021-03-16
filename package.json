@@ -1,0 +1,38 @@
+{
+  "name": "buswebautomation",
+  "version": "1.1.0",
+  "description": "automation test suite for bus project",
+  "author": {
+    "name": "Chanaka U."
+  },
+  "dependencies": {
+    "canvas": "^2.6.0",
+    "hashmap": "^2.3.0",
+    "image-to-base64": "^2.1.1",
+    "jasmine-allure-reporter": "^1.0.2",
+    "jasmine-data-provider": "2.2.0",
+    "jasmine-reporters": "^2.3.1",
+    "jasmine2-protractor-utils": "1.3.0",
+    "moment": "^2.22.2",
+    "nodemailer": "^4.7.0",
+    "protractor": "^5.4.4",
+    "protractor-hotkeys": "0.0.5",
+    "protractor-html-reporter-2": "1.0.4",
+    "protractor-http-client": "^1.0.4",
+    "protractor-image-comparison": "^3.9.0",
+    "protractor-jasmine2-html-reporter": "0.0.7",
+    "webdriver-manager": "^12.1.7"
+  },
+  "scripts": {
+    "setup": "npm install && node node_modules/protractor/bin/webdriver-manager update",
+    "webdriver-update": "webdriver-manager update",
+    "start": "node node_modules/protractor/bin/protractor conf.js",
+    "debug": "node node_modules/protractor/bin/protractor debug conf.js",
+    "execute": "npm install && node node_modules/protractor/bin/webdriver-manager update && protractor conf.js",
+    "e2e": "protractor conf.js --suite e2e",
+    "report": "allure generate allure-results --clean -o allure-report && allure open allure-report"
+  },
+  "devDependencies": {
+    "protractor-beautiful-reporter": "^1.3.6"
+  }
+}

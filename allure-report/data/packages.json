@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Sample test spec page",
+    "children" : [ {
+      "name" : "0000 - Sample Test case",
+      "uid" : "8f9493e1b387485e",
+      "parentUid" : "69ad3f6b95d13bb22cc77d2e3016700d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592484920234,
+        "stop" : 1592484961294,
+        "duration" : 41060
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "69ad3f6b95d13bb22cc77d2e3016700d"
+  } ]
+}

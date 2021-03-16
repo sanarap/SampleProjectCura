@@ -1,0 +1,44 @@
+{
+  "uid" : "551d71eea05bb4af",
+  "name" : "0000 - Sample Test case",
+  "fullName" : "Sample test spec page.0000 - Sample Test case",
+  "historyId" : "e725e7a1a4d5f6ba618218e33a94b17d",
+  "time" : {
+    "start" : 1592483707602,
+    "stop" : 1592483720497,
+    "duration" : 12895
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sample test spec page"
+  }, {
+    "name" : "testClass",
+    "value" : "Sample test spec page"
+  }, {
+    "name" : "testMethod",
+    "value" : "0000 - Sample Test case"
+  }, {
+    "name" : "package",
+    "value" : "Sample test spec page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "551d71eea05bb4af.json",
+  "parameterValues" : [ ]
+}

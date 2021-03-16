@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Sample test spec page",
+    "children" : [ {
+      "name" : "0000 - Sample Test case",
+      "uid" : "8f9493e1b387485e",
+      "parentUid" : "bc7fae31480355ae024e9cfe3b966151",
+      "status" : "failed",
+      "time" : {
+        "start" : 1592484920234,
+        "stop" : 1592484961294,
+        "duration" : 41060
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bc7fae31480355ae024e9cfe3b966151"
+  } ]
+}
